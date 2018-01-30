@@ -34,6 +34,32 @@ body{
 .box p{
 	text-align: justify;
 }
+#resume{
+	text-align: center;
+}
+
+/* unvisited link */
+a:link{
+	color: white;
+	text-decoration: none;
+}
+/* visited link */
+a:visited {
+	color: white;
+	text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+	color: white;
+	text-decoration: underline
+}
+
+/* selected link */
+a:active {
+	color: white;
+	text-decoration: none;
+}
+
 ul{
 	margin: 0;
 	padding: 0;
