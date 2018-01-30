@@ -34,7 +34,11 @@ body{
 .box p{
 	text-align: justify;
 }
+a:hover{
+
+}
 #resume{
+	font-size: 17px;
 	text-align: center;
 }
 
@@ -53,7 +57,6 @@ a:hover {
 	color: white;
 	text-decoration: underline
 }
-
 /* selected link */
 a:active {
 	color: white;
@@ -63,6 +66,9 @@ a:active {
 ul{
 	margin: 0;
 	padding: 0;
+}
+.box a:hover{
+	color: #b9b9b9;
 }
 .box li{
 	display: inline-block;
