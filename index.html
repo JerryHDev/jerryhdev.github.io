@@ -1,29 +1,627 @@
 <!DOCTYPE html>
-<html>
+<!--[if lt IE 8 ]><html class="no-js ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="no-js ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 8)|!(IE)]><!--><html class="no-js" lang="en"> <!--<![endif]-->
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1 user-scalable=yes">
-	<script src="https://use.fontawesome.com/5ddb9bc92c.js"></script>
-	<link rel="stylesheet" type="text/css" href="style.css">
+
+   <!--- Basic Page Needs
+   ================================================== -->
+   <meta charset="utf-8">
 	<title>Jerry Huang</title>
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+   <!-- Mobile Specific Metas
+   ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+	<!-- CSS
+    ================================================== -->
+   <link rel="stylesheet" href="css/default.css">
+	<link rel="stylesheet" href="css/layout.css">
+   <link rel="stylesheet" href="css/media-queries.css">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+
+   <!-- Script
+   ================================================== -->
+	<script src="js/modernizr.js"></script>
+
+   <!-- Favicons
+	================================================== -->
+	<link rel="shortcut icon" href="favicon.png" >
+
 </head>
+
 <body>
 
-	<div class="box">
-		<img src="profile.jpg" alt="" class="box-img" >
+   <!-- Header
+   ================================================== -->
+   <header id="home">
 
-		<h1>Jerry Huang</h1>
-		<h5>University of Texas at Austin</h5>
-		<p>Hey! I'm a freshman studying Computer Science with a minor in Business Administration at UT Austin. I love
-			creating technological solutions to everyday problems, rock climbing, and playing instruments. Click on the following
-			 to learn more or view my personal projects!</p>
-		<a id="resume" href="resume_public.pdf" target="_blank">View Resume</a>
-		<ul>
-			<li><a href="https://www.facebook.com/jerry.huang.24" target="_blank"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
-			<li><a href="https://www.linkedin.com/in/jerryhuangdev/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a></li>
-			<li><a href="https://github.com/JerryHDev" target="_blank"><i class="fa fa-github-square" aria-hidden="true"></i></a></li>
-		</ul>
-	</div>
+      <nav id="nav-wrap">
+
+         <a class="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
+	      <a class="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+
+         <ul id="nav" class="nav">
+            <li class="current"><a class="smoothscroll" href="#home">Home</a></li>
+            <li><a class="smoothscroll" href="#about">About</a></li>
+	         <li><a class="smoothscroll" href="#resume">Resume</a></li>
+            <li><a class="smoothscroll" href="#portfolio">Portfolio</a></li>
+            <!-- <li><a class="smoothscroll" href="#testimonials">Awards</a></li> -->
+            <li><a class="smoothscroll" href="#contact">Contact</a></li>
+         </ul> <!-- end #nav -->
+
+      </nav> <!-- end #nav-wrap -->
+
+      <div class="row banner">
+         <div class="banner-text">
+            <h1 class="responsive-headline">I'm Jerry,</h1>
+            <h3>Currently an undergraduate student at <span>UT Austin</span> majoring in <span>Computer Science</span> with a minor in <span>Business Administration</span>. I'm an entrepreneurial driven student with a passion for developing creative and unique applications.<br>
+            <a class="smoothscroll" href="#about">Scroll down</a>
+            to view my experiences!</h3>
+            <hr />
+            <ul class="social">
+              <li><a target="_blank" href="https://www.linkedin.com/in/jerryhuangdev/"><i class="fa fa-linkedin"></i></a></li>
+              <li><a target="_blank" href="https://github.com/JerryHDev"><i class="fa fa-github"></i></a></li>
+              <li><a target="_blank" href="https://devpost.com/jerryhuang"><i class="fa fa-code"></i></a></li>
+            </ul>
+         </div>
+      </div>
+
+
+      <p class="scrolldown">
+         <a class="smoothscroll" href="#about"><i class="icon-down-circle"></i></a>
+      </p>
+
+   </header> <!-- Header End -->
+
+
+   <!-- About Section
+   ================================================== -->
+   <section id="about">
+
+      <div class="row">
+
+         <div class="three columns">
+
+            <img class="profile-pic"  src="images/jerry.jpg" alt="" />
+
+         </div>
+
+         <div class="nine columns main-col">
+
+            <!-- <h2>About Me</h2>
+
+            <p>I'm an entrepreneurial driven student with a passion for bridging the gap between technology and daily life.
+            </p> -->
+
+            <div class="row">
+
+               <div class="columns contact-details">
+
+                  <h2>Contact Details</h2>
+                  <p class="address">
+						              <span>Jerry Huang</span><br>
+                          <span>Austin, TX <span>&bull;</span> SF Bay Area, CA</span><br>
+                          <span>jerryh@utexas.edu</span><br>
+						              <span>(650) 468-1819</span>
+                        </p>
+               </div>
+
+               <div class="columns download">
+                  <p>
+                     <a href="resume.pdf" target="_blank" class="button"><i class="fa fa-download"></i>View Resume</a>
+                  </p>
+               </div>
+
+            </div> <!-- end row -->
+
+         </div> <!-- end .main-col -->
+
+      </div>
+
+   </section> <!-- About Section End-->
+
+
+   <!-- Resume Section
+   ================================================== -->
+   <section id="resume">
+
+     <!-- Work
+     ----------------------------------------------- -->
+     <div class="row work">
+
+        <div class="three columns header-col">
+           <h1><span>Experience</span></h1>
+        </div>
+
+        <div class="nine columns main-col">
+
+           <!-- <div class="row item">
+
+              <div class="twelve columns">
+                 <h3>Apple Inc.</h3>
+                 <p class="info">Incoming Intern <span>&bull;</span> <em class="date">Jan - Aug 2019</em></p>
+                 <p>
+                   Working with Apple TV team during 7 month internship/co-op
+                 </p>
+                <br>
+              </div>
+
+           </div> -->
+
+           <div class="row item">
+
+              <div class="twelve columns">
+                 <h3>Hiretual</h3>
+                 <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">May - Aug 2018</em></p>
+                 <p>
+                 Focused on data science and developed experience in handling large data sets and manipulating them effeciently through Spark modules.
+                 </p>
+                 <ul class="list">
+     							<li>Developed several web-crawlers in Python to aggregate and parse 100+ million data sets</li>
+     							<li>Created Spark models implementing map-reduce and lambda functions for data processing</li>
+     							<li>Engineered web app with Flask for Elasticsearch, Levenshtein Distance, and statistical distributions</li>
+     							<li>Designed and implemented a complete module for data migration between SQL and Cassandra</li>
+     							<li>Developed Selenium modules for QA testing and verifying the stability of frontend updates</li>
+     						</ul>
+                <br>
+              </div>
+
+           </div> <!-- item end -->
+
+           <div class="row item">
+
+              <div class="twelve columns">
+                 <h3>Aplomb</h3>
+                 <p class="info">Software Engineering Intern <span>&bull;</span> <em class="date">Nov - Dec 2017</em></p>
+                 <p>
+                 Focused on developing on top of existing iOS application and adding features like filler word detection.
+                 </p>
+                 <ul class="list">
+     							<li>Collaborated with engineering team to develop and debug a interview prep app</li>
+     							<li>Developed in Swift to improve iOS App UI and user-to-bot chat flow</li>
+     							<li>Rewrote API backend in Ruby and integrated interview functionality using IBM Watson’s Speech-to-Text API</li>
+     						</ul>
+              </div>
+
+           </div> <!-- item end -->
+
+        </div> <!-- main-col end -->
+
+     </div> <!-- End Work -->
+
+
+      <!-- Education
+      ----------------------------------------------- -->
+      <div class="row education">
+
+         <div class="three columns header-col">
+            <h1><span>Education</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>University of Texas at Austin</h3>
+                  <p class="info">Bachelor of Science in Computer Science <span>&bull;</span> <em class="date">May 2020</em></p>
+
+                  <p>
+                  Courses: Data Structures, Discrete Math, Computer Architecture, Operating Systems, Probability, Multivariable Calculus
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+            <div class="row item">
+
+               <div class="twelve columns">
+
+                  <h3>Palo Alto High School</h3>
+                  <p class="info">Palo Alto, CA <span>&bull;</span> <em class="date">May 2017</em></p>
+
+                  <p>
+                  Courses: AP Computer Science, AP Calculus BC, AP Statistics, AP Macroeconomics, AP Biology, AP Psychology, Advanced Authentic Research (Neural Networks)
+                  </p>
+
+               </div>
+
+            </div> <!-- item end -->
+
+         </div> <!-- main-col end -->
+
+      </div> <!-- End Education -->
+
+
+
+
+      <!-- Languages
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Languages</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+             <li><span class="bar-expand java"></span><em>Java</em></li>
+             <li><span class="bar-expand python"></span><em>Python</em></li>
+						 <li><span class="bar-expand c"></span><em>C/C++</em></li>
+						 <li><span class="bar-expand web"></span><em>HTML/CSS</em></li>
+             <li><span class="bar-expand javascript"></span><em>JavaScript</em></li>
+						 <li><span class="bar-expand swift"></span><em>Swift</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+    </div> <!-- End languages -->
+
+      <!-- Technologies
+      ----------------------------------------------- -->
+      <div class="row skill">
+
+         <div class="three columns header-col">
+            <h1><span>Technologies</span></h1>
+         </div>
+
+         <div class="nine columns main-col">
+
+            <p>
+            </p>
+
+				<div class="bars">
+
+				   <ul class="skills">
+             <li><span class="bar-expand flask"></span><em>Flask</em></li>
+             <li><span class="bar-expand mysql"></span><em>MySQL</em></li>
+             <li><span class="bar-expand xcode"></span><em>Xcode</em></li>
+             <li><span class="bar-expand mongodb"></span><em>MongoDB</em></li>
+             <li><span class="bar-expand spark"></span><em>Spark</em></li>
+             <li><span class="bar-expand git"></span><em>Git</em></li>
+					</ul>
+
+				</div><!-- end skill-bars -->
+
+			</div> <!-- main-col end -->
+
+    </div> <!-- End technologies -->
+
+   </section> <!-- Resume Section End-->
+
+
+   <!-- Portfolio Section
+   ================================================== -->
+   <section id="portfolio">
+
+      <div class="row">
+
+         <div class="twelve columns collapsed">
+
+            <h1>Check Out Some of My Projects.</h1>
+
+            <!-- portfolio-wrapper -->
+            <div id="portfolio-wrapper" class="bgrid-quarters s-bgrid-thirds cf">
+
+          	   <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-01" title="">
+                        <img alt="" src="images/portfolio/hangtime.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>Hangtime</h5>
+                              <p>iOS Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-02" title="">
+                        <img alt="" src="images/portfolio/1trackr.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>1Trackr</h5>
+                              <p>iOS Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-03" title="">
+                        <img alt="" src="images/portfolio/flyamerican.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>flyamerican</h5>
+                              <p>Web Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+               <div class="columns portfolio-item">
+                  <div class="item-wrap">
+
+                     <a href="#modal-04" title="">
+                        <img alt="" src="images/portfolio/serjobs.png">
+                        <div class="overlay">
+                           <div class="portfolio-item-meta">
+          					      <h5>SERJobs</h5>
+                              <p>Web Application</p>
+          					   </div>
+                        </div>
+                        <div class="link-icon"><i class="icon-plus"></i></div>
+                     </a>
+
+                  </div>
+          		</div> <!-- item end -->
+
+
+
+            </div> <!-- portfolio-wrapper end -->
+
+         </div> <!-- twelve columns end -->
+
+
+         <!-- Modal Popup
+	      --------------------------------------------------------------- -->
+
+         <div id="modal-01" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-hangtime.jpg" alt="" />
+
+		      <div class="description-box">
+			      <h4>Hangtime <span>&bull;</span> <em class="date">Feb - Aug 2018</em></h4>
+			      <p>Hangtime, nominated 1st Place by Cisco @ HackUTD, is a hackathon-turned startup that redefines the college campus experience. It is the ultimate social event discovery application, featuring a fully interactive and appealing map interface for students to create and discover events on or near campus.</p>
+               <span class="categories"><i class="fa fa-code"></i>Swift, Xcode, Google Firebase, Startup</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="http://hangtime.io/" target="_blank">View Project</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-01 End -->
+
+         <div id="modal-02" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-1trackr.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>1Trackr <span>&bull;</span> <em class="date">Jan 2016</em></h4>
+			      <p>I developed 1Trackr in junior year of high school to help students digitally track their community service hours and store them in the Cloud for easy access.</p>
+               <span class="categories"><i class="fa fa-code"></i>Swift, Xcode, Parse</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="#" target="_blank">View Project</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-02 End -->
+
+         <div id="modal-03" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-flyamerican.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>flyamerican.today <span>&bull;</span> <em class="date">Apr 2017</em></h4>
+			      <p>Collaborated with a team of 4 to develop a web application for American Airlines. flyamerican.today was awarded 3rd Place for Best AA Hack.</p>
+               <span class="categories"><i class="fa fa-code"></i>Web App, Bulma CSS</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/JerryHDev/flyAmerican.today" target="_blank">View Project</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-03 End -->
+
+         <div id="modal-04" class="popup-modal mfp-hide">
+
+		      <img class="scale-with-grid" src="images/portfolio/modals/m-serjobs.png" alt="" />
+
+		      <div class="description-box">
+			      <h4>SERJobs <span>&bull;</span> <em class="date">Oct 2018</em></h4>
+			      <p>Web app developed at JPMorgan's 2018 Code for Good Challenge with a team of 6. Used HTML/CSS for frontend and Python, Flask, and MySQL deployed to AWS server for backend.</p>
+               <span class="categories"><i class="fa fa-code"></i>Web App, Flask</span>
+		      </div>
+
+            <div class="link-box">
+               <a href="https://github.com/dallas2018/team-2" target="_blank">View Project</a>
+		         <a class="popup-modal-dismiss">Close</a>
+            </div>
+
+	      </div><!-- modal-04 End -->
+
+      </div> <!-- row End -->
+
+   </section> <!-- Portfolio Section End-->
+
+
+
+   <!-- Contact Section
+   ================================================== -->
+   <section id="contact">
+
+         <div class="row section-head">
+
+            <div class="two columns header-col">
+
+               <h1><span>Get In Touch.</span></h1>
+
+            </div>
+
+            <div class="ten columns">
+
+                  <p class="lead">I'm currently seeking internship opportunities during winter or summer 2020. Feel free to reach out and let's get in touch!
+                  </p>
+
+            </div>
+
+         </div>
+
+         <div class="row">
+
+            <div class="eight columns">
+
+               <!-- form -->
+               <form action="" method="post" id="contactForm" name="contactForm">
+					<fieldset>
+
+                  <div>
+						   <label for="contactName">Name <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactName" name="contactName">
+                  </div>
+
+                  <div>
+						   <label for="contactEmail">Email <span class="required">*</span></label>
+						   <input type="text" value="" size="35" id="contactEmail" name="contactEmail">
+                  </div>
+
+                  <div>
+						   <label for="contactSubject">Subject</label>
+						   <input type="text" value="" size="35" id="contactSubject" name="contactSubject">
+                  </div>
+
+                  <div>
+                     <label for="contactMessage">Message <span class="required">*</span></label>
+                     <textarea cols="50" rows="15" id="contactMessage" name="contactMessage"></textarea>
+                  </div>
+
+                  <div>
+                     <button class="submit">Submit</button>
+                     <span id="image-loader">
+                        <img alt="" src="images/loader.gif">
+                     </span>
+                  </div>
+
+					</fieldset>
+				   </form> <!-- Form End -->
+
+               <!-- contact-warning -->
+               <div id="message-warning"> An error has occured!</div>
+               <!-- contact-success -->
+				   <div id="message-success">
+                  <i class="fa fa-check"></i>Your message has been sent. We'll be in contact soon, thank you!<br>
+				   </div>
+
+            </div>
+
+
+            <aside class="four columns footer-widgets">
+
+               <div class="widget widget_contact">
+
+					   <h4>Address and Phone</h4>
+					   <p class="address">
+						   Jerry Huang<br>
+						   2222 Pearl St APT 408<br>
+						   Austin, TX 78705 US<br>
+						   <span>(650) 468-1819</span>
+					   </p>
+
+				   </div>
+
+               <!-- <div class="widget widget_tweets">
+
+                  <h4 class="widget-title">Latest Tweets</h4>
+
+                  <ul id="twitter">
+                     <li>
+                        <span>
+                        This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet.
+                        Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">2 Days Ago</a></b>
+                     </li>
+                     <li>
+                        <span>
+                        Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam,
+                        eaque ipsa quae ab illo inventore veritatis et quasi
+                        <a href="#">http://t.co/CGIrdxIlI3</a>
+                        </span>
+                        <b><a href="#">3 Days Ago</a></b>
+                     </li>
+                  </ul>
+
+		         </div> -->
+
+            </aside>
+
+      </div>
+
+   </section> <!-- Contact Section End-->
+
+
+   <!-- footer
+   ================================================== -->
+   <footer>
+
+      <div class="row">
+
+         <div class="twelve columns">
+
+            <ul class="social-links">
+               <li><a href="https://www.linkedin.com/in/jerryhuangdev/" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+               <li><a href="https://github.com/JerryHDev" target="_blank"><i class="fa fa-github"></i></a></li>
+               <li><a href="https://devpost.com/jerryhuang" target="_blank"><i class="fa fa-code"></i></a></li>
+            </ul>
+
+            <ul class="copyright">
+               <li>&copy; Copyright 2018 Jerry Huang</li>
+               <li>Design by <a href="http://www.styleshout.com/" title="Styleshout" target="_blank">Jerry Huang</a></li>
+            </ul>
+
+         </div>
+
+         <div id="go-top"><a class="smoothscroll" title="Back to Top" href="#home"><i class="icon-up-open"></i></a></div>
+
+      </div>
+
+   </footer> <!-- Footer End-->
+
+   <!-- Java Script
+   ================================================== -->
+   <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+   <script>window.jQuery || document.write('<script src="js/jquery-1.10.2.min.js"><\/script>')</script>
+   <script type="text/javascript" src="js/jquery-migrate-1.2.1.min.js"></script>
+
+   <script src="js/jquery.flexslider.js"></script>
+   <script src="js/waypoints.js"></script>
+   <script src="js/jquery.fittext.js"></script>
+   <script src="js/magnific-popup.js"></script>
+   <script src="js/init.js"></script>
 
 </body>
+
 </html>
