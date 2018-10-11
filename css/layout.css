@@ -331,12 +331,12 @@ ul#nav li.current a { color: #F06000; }
 }
 
 .java {
-  	width: 100%;
+  	width: 85%;
   	-moz-animation: java 2s ease;
   	-webkit-animation: java 2s ease;
 }
 .python {
-  	width: 100%;
+  	width: 85%;
   	-moz-animation: python 2s ease;
   	-webkit-animation: python 2s ease;
 }
@@ -363,11 +363,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-moz-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes c {
   0%   { width: 0px;  }
@@ -388,11 +388,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes java {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes python {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes c {
   0%   { width: 0px;  }
@@ -416,12 +416,12 @@ ul#nav li.current a { color: #F06000; }
 /*----------------------------------------------*/
 
 .flask {
-  	width: 100%;
+  	width: 85%;
   	-moz-animation: flask 2s ease;
   	-webkit-animation: flask 2s ease;
 }
 .mysql {
-  	width: 100%;
+  	width: 85%;
   	-moz-animation: mysql 2s ease;
   	-webkit-animation: mysql 2s ease;
 }
@@ -448,11 +448,11 @@ ul#nav li.current a { color: #F06000; }
 }
 @-moz-keyframes flask {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes mysql {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-moz-keyframes xcode {
   0%   { width: 0px;  }
@@ -473,11 +473,11 @@ ul#nav li.current a { color: #F06000; }
 
 @-webkit-keyframes flask {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes mysql {
   0%   { width: 0px;  }
-  100% { width: 100%;  }
+  100% { width: 85%;  }
 }
 @-webkit-keyframes xcode {
   0%   { width: 0px;  }
